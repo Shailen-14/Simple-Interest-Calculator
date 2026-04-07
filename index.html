@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Interest Calculator</title>
+</head>
+
+<body>
+  <h1>Interest Calculator</h1>
+  <div class="container">
+    <form method="post">
+      <label for="principal">Principal Amount</label>
+      <input type="number" id="principal" value="0" min="0">
+
+      <label for="interest">Interest (%)</label>
+      <input type="number" id="interest" value="0" min="0">
+
+      <label for="years">Year/s</label>
+      <input type="number" id="years" value="0" min="0">
+    </form>
+
+    <button class="submitButton" onclick="calculate();">submit</button>
+
+    <h2 class="result"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
