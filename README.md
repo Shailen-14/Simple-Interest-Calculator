@@ -60,8 +60,8 @@ Simple Interest = (Principal × Interest × Years) / 100
 ---
 
 ## 👤 Author
-Shailen Naidoo
-GitHub: https://github.com/Shailen-14
+- Shailen Naidoo
+- GitHub: https://github.com/Shailen-14
 
 ---
 
